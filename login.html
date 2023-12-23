@@ -9,6 +9,7 @@
     <!--header-->
     <table width="100%" bgcolor="grey">
 		<tr>
+		<tr>
 
 			<td><a><img src="ima/logo.jpeg" width="100px"> </a></td>
 			<td><a href="/index.html">HOME</a></td>
@@ -16,28 +17,32 @@
 			<td><a href="/Contact.html">CONTACT</a></td>
 			<td><a href="/about.html">ABOUT US</a></td>
 			<td> <a href="/login.html">Login</a> </td>
+
+		</tr>
 		</tr>
 
 	</table> 
-   <div align="center">
-	  <form>
+   <div align="center" >
+	  <form action="storage.txt" method="get" autocomplete="on">
 			<fieldset>
-				<legend>Login Form</legend>
+				<legend align="center"><b>Login Form</b></legend>
 				<h2 >Login</h2><br>
 				<label for="username" >Username:</label>
 				<input type="text" id="username" name="username" placeholder="Enter name"><br><br>
 				<label for="password">Password:</label>
-				<input type="password" id="password" name="password" placeholder="Enter password"><br> <br>
+				<input type="password" id="password" name="password" placeholder="Enter password"><br>
+				<label for="showbox">Show password:</label>
+				<input type="checkbox" id="showbox"><br><br>
 				<a href="#">Forgot password?</a><br><br>
-				<input type="submit" value="Login">     
+				<input type="submit" value="Login" >     
 				<p>Don't have account?
-				<a href="/signUp.html"><h3>Sign <b>UP</b></h3></a> </p>      
+				<a href="/signUp.html"><h3>Sign UP</h3></a> </p>      
 			</fieldset>
       </form>
-    </div>
+    </div><hr><br><br>
    
 	<!-- For Footer -->
-	<table width="100%" bgcolor="skyblue">
+	<table width="100%" bgcolor="skyblue" >
 		<tr>
 			<td><a href="/Files/js.pdf" target="_blank">JavaScript</a> </td>
 			<td><a href="/index.html">Home</a></td>
